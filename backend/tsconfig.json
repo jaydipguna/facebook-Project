@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",         // Use ESNext for the latest JavaScript features
+    "module": "ESNext",         // Use ES modules
+    "moduleResolution": "node", // Node.js-style module resolution
+    "esModuleInterop": true,    // Enables default import interoperability
+    "skipLibCheck": true,       // Skip type checking of declaration files
+    "strict": true,             // Enable strict type-checking
+    "resolveJsonModule": true,  // Allow importing of .json files
+    "outDir": "./dist",         // Output directory for compiled files
+    "rootDir": ".",             // Root directory for source files
+    "allowJs": true,            // Allow JavaScript files if needed
+    "experimentalDecorators": true,
+    "sourceMap": true           // Enable source maps for debugging
+  },
+  "include": ["**/*.ts"],        // Include all TypeScript files
+  "exclude": ["node_modules"]    // Exclude node_modules folder
+}
